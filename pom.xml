@@ -7,6 +7,10 @@
 	<version>1.0-SNAPSHOT</version>
 	<name>PackagingLab</name>
 	<url>http://maven.apache.org</url>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<log4j.properties.directory>src/main/java</log4j.properties.directory>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -18,6 +22,7 @@
 			<artifactId>log4j</artifactId>
 			<version>1.2.17</version>
 		</dependency>
-
 	</dependencies>
+	
+	
 </project>
