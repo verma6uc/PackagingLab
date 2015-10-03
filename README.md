@@ -1,7 +1,7 @@
 # PackagingLab 
-This is the Solution for the problem stated as the "Packaging Lab" problem as described on the document. The approach to solving the problem is making use of the Dynamic programming and the category of the problem is the Knacksack problem. 
+This is the Solution for the problem stated as the "Packaging Lab" problem as described on the document. The approach to solving the problem is making use of the Dynamic programming and the category of the problem is the Knapsack problem. 
 
-The approach taken to solve the problem is a TDD based approach where we will first write the test case for the problem and then move to writing the actual solution, we would than refactor the actual solution code for optimization. 
+The approach taken to solve the problem is a TDD based approach where we will first write the test case for the problem and then move to writing the actual solution, we would than refactor the actual solution code for optimisation. 
 
 The external libraries required would be:
 
@@ -15,5 +15,6 @@ The approach I aim to follow is :-
 3. Write the main logic to take care of main requirements
 4. Refactor to ensure readability and cleanliness.
 5. Add logging
-6. Aim to write an implementation Using another algorithm which may be greedy algorithm, which willl work great for fractional knapsack problem but not here. 
+6. Aim to write an implementation Using another algorithm which may be greedy algorithm, which will work great for fractional knapsack problem but not here. 
 
+One of the problems with this algorithm is that it cannot be run in a distributed environment like Hadoop or Spark Let me use Genetic programming to write a Class which uses Genetic programming and be distributed.
