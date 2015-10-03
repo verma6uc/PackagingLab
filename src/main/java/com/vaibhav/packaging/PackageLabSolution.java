@@ -14,8 +14,8 @@ import org.apache.log4j.Logger;
  * @author vaibhav
  */
 public class PackageLabSolution {
-    private static final Logger logger = Logger.getLogger(PackageLabSolution.class);
-
+	private static final Logger logger =
+	        Logger.getLogger(PackageLabSolution.class.getName());
     private int maxWeight;
 	private ArrayList<Item> listOfItems;
 	private ArrayList<ArrayList<Item>> combinations;
@@ -88,7 +88,7 @@ public class PackageLabSolution {
 			current.add(currentItem);
 			combinations.add(current);
 		}
-
+		logger.debug("combinations: " + combinations);
 		return combinations;
 	}
 
@@ -133,7 +133,7 @@ public class PackageLabSolution {
 		filterItems();
 		combinations = createCombinations();
 		if (combinations.size() == 0) {
-			bestCombination = new ArrayList<>();
+			bestCombination = new ArrayList<Item>();
 		} else {
 			bestCombination = getBestPackageBasedOnDP();
 		}
