@@ -18,3 +18,5 @@ The approach I aim to follow is :-
 6. Aim to write an implementation Using another algorithm which may be greedy algorithm, which will work great for fractional knapsack problem but not here. 
 
 One of the problems with this algorithm is that it cannot be run in a distributed environment like Hadoop or Spark Let me use Genetic programming to write a Class which uses Genetic programming and be distributed.
+
+Implemented Genetic Algorithm but found it takes more time than DP solution, but the only advantiage I could see was if we wanted it to work in a distributed enviornment, which is not teh case here hence rejecting it, for this excercise.
