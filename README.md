@@ -20,3 +20,5 @@ The approach I aim to follow is :-
 One of the problems with this algorithm is that it cannot be run in a distributed environment like Hadoop or Spark Let me use Genetic programming to write a Class which uses Genetic programming and be distributed.
 
 Implemented Genetic Algorithm but found it takes more time than DP solution, but the only advantiage I could see was if we wanted it to work in a distributed enviornment, which is not teh case here hence rejecting it, for this excercise.
+
+Upon my analysis between DP, GA, and Greedy DP works best for this problem set with the contraints given. 
